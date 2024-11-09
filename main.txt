@@ -3,3 +3,9 @@ There are also a few ways to install Git on Windows.
 The most official build is available for download on the Git website. 
 Just go to https://git-scm.com/download/win and the download will start automatically. 
 Note that this is a project called Git for Windows, which is separate from Git itself; for more information on it, go to https://gitforwindows.org.
+
+
+$ sudo dnf install dh-autoreconf curl-devel expat-devel gettext-devel \
+  openssl-devel perl-devel zlib-devel
+$ sudo apt-get install dh-autoreconf libcurl4-gnutls-dev libexpat1-dev \
+  gettext libz-dev libssl-de
